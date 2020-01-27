@@ -1,0 +1,192 @@
+html {
+    font-size: 100%;
+}
+main {
+    padding-bottom: 35px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    max-width: 90%;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
+}
+
+header {
+    position: fixed;
+    width: 90%;
+    background-color: white;
+    padding-top: 5px;
+    top: 0;
+    z-index: 1; 
+}
+.venstre {      
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-auto-flow: column;
+    text-align: center;
+}
+.midten {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+}
+.hoyre {
+    display: grid;
+    align-items: center;
+    justify-content: end; 
+    grid-auto-flow: column;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    font-size: .9375rem;
+}
+
+nav a:hover {
+    color: #F25556;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.25rem;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+.fonter {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.fonter:hover {
+    color: #F25556;
+}
+
+article .neinei, article .hehi {
+    background: #F25556;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+article .neinei img:hover {
+    opacity: .5;
+}
+
+article .heihei img:hover {
+    opacity: .5;
+}
+
+.made {
+    font-size: 12px;
+}
+
+hr {
+    background-color: #D8D8D8;
+    border: none;
+    height: 2px;
+    margin: 0;
+}
+
+.velg {
+    padding-bottom: 70px;
+}
+
+.usynlig {
+    opacity: 0;
+    user-select: none;
+    cursor: default;
+    pointer-events: none;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#backtop {
+    position: fixed;
+    left: auto;
+    right: 20px;
+    top: auto;
+    bottom: 20px;
+    outline: none;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(49, 79, 96, 0.84);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    z-index: 999999;
+    opacity: 1;
+    display: none;
+}
+
+#backtop:hover {
+    background-color: #F25556;
+}
+
+#backtop.mcOut {
+    opacity: 0;
+}
+
+.smallscreen {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .widescreen {
+        display: none;
+    }
+    .smallscreen {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .ebgar {
+        text-align: center;
+    }
+    .made {
+        font-size: 10px;
+    }
+    article img {
+        max-width: 80%;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+}

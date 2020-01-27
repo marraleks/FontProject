@@ -1,0 +1,393 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: auto;
+    max-width: 90%;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    /*text-align: left;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
+}
+
+header {
+    position: fixed;
+    width: 90%;
+    background-color: white;
+    padding-top: 5px;
+    top: 0;
+}
+.venstre {      
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-auto-flow: column;
+    text-align: center;
+}
+.midten {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+}
+.hoyre {
+    display: grid;
+    align-items: center;
+    justify-content: end; 
+    grid-auto-flow: column;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    font-size: .9375rem;
+}
+
+nav a:hover {
+    color: #F25556;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+.intro {
+    background-color: #ebebeb;
+    margin-top: 100px;
+    max-width: 90%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 8.125rem;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.intro h1 {
+    text-align: center;
+    padding-top: 0px;
+}
+
+#thedesigner {
+    line-height: 1.5rem;
+}
+
+#ro {
+    font-weight: bold;
+}
+
+#bo {
+    font-weight: 100;
+}
+
+#to {
+    font-weight: 400;
+}
+
+#designer {
+    font-weight: 400;
+}
+
+#name {
+    font-weight: 300;
+}
+
+#what {
+    font-weight: 100;
+}
+
+.byttestil {
+    font-weight: 300;
+}
+
+.intro p {
+    padding-left: 29%;
+    padding-right: 29%;
+    text-align: center;
+}
+
+.licence {
+    padding-bottom: 118px;
+}
+
+.fonter {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.fonter:hover {
+    color: #F25556;
+}
+
+hr {
+    background-color: #D8D8D8;
+    border: none;
+    height: 2px;
+    margin: 0;
+}
+
+.apache {
+    text-decoration: none;
+    color: #F25556;
+}
+
+h5 {
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 80px;
+    font-weight: 500;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+#characters {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+    max-width: 100%;
+}
+
+.boks1 {
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+.storebokstaver {
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+}
+
+.smaabokstaver {
+    color: #000;
+    font-weight: 400;
+}
+
+.tall {
+    color: #000;
+    font-weight: 400;
+}
+.bokstavtegn {
+    font-size: 1.8rem;
+}
+
+.styless {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+}
+
+.styless .hva {
+    font-weight: 100;
+}
+
+.styless .er {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.styless .det {
+    font-weight: 300;
+}
+
+.styless .som {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.styless .skjer {
+    font-weight: 400;
+}
+
+.styless .her {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.styless .egentlig {
+    font-weight: 500;
+}
+
+.styless .jeg {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.styless .aner {
+    font-weight: 700;
+}
+
+.styless .ikke {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.styless .ja {
+    font-weight: 900;
+}
+
+.styless .nei {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.quotee {
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 300;
+    margin-bottom: 20vh;
+}
+
+#quote {
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 4vh;
+    user-select: none;
+    cursor: default;
+    pointer-events: none;
+}
+
+#independent {
+    font-weight: 100;
+    font-style: italic;
+}
+
+#strong {
+    font-weight: bold;
+}
+
+article .utsagn {
+    margin-bottom: 10px;
+}
+
+article .hvem {
+    font-size: 2vw;
+}
+
+.made {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#skul {
+    opacity: 0;
+}
+
+#backtop {
+    position: fixed;
+    left: auto;
+    right: 20px;
+    top: auto;
+    bottom: 20px;
+    outline: none;
+    overflow: hidden;
+    color: #D8D8D8;
+    text-align: center;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    z-index: 999999;
+    opacity: 1;
+    display: none;
+}
+
+#backtop:hover {
+    background-color: #F25556;
+}
+
+#backtop.mcOut {
+    opacity: 0;
+}
+
+.smallscreen {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+    .widescreen {
+        display: none;
+    }
+    .smallscreen {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .ebgar {
+        text-align: center;
+    }
+    .intro p {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: left;
+    }
+    #thedesigner {
+        text-align: center;
+    }
+    .licence {
+        padding-bottom: 50px;
+    }
+    #characters {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 27px;
+        max-width: 100%;
+    }
+    .boks1 {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    .bokstavtegn {
+        font-size: 1.1rem;
+    }
+    .made {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .styless {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    article .utsagn {
+        font-size: 2.5rem;
+    }
+    article .hvem {
+        font-size: 1rem;
+    }
+    h5 {
+        font-size: 1.5rem;
+    }
+}
